@@ -1,4 +1,5 @@
-Solar Tracker with Weather Station
+  **SOLAR TRACKER WITH BUILT-IN WEATHER STATION**
+  
 A dual-axis solar tracking system integrated with a real-time weather station, built using Arduino Uno and ESP32.
 The Arduino handles physical solar panel tracking using LDR sensors and servo motors with an LCD menu interface. The ESP32 collects atmospheric data (temperature, humidity, pressure) and pushes it to the Arduino IoT Cloud for remote monitoring.
 
@@ -24,9 +25,9 @@ The Arduino handles physical solar panel tracking using LDR sensors and servo mo
 ---
 
 **HARDWARE COMPONENT**
-+--------------------------------+----------+------------------------------------------+
+|--------------------------------|----------|------------------------------------------|
 | Component                      | Quantity |               Purpose                    |
-+--------------------------------+----------+------------------------------------------+                                         
+|--------------------------------|----------|------------------------------------------|                                         
 | Arduino Uno                    |     1    |      Solar tracking controller           |
 | ESP32                          |     1    |      Weather station + IoT Cloud         |
 | LDR (Light Dependent Resistor) |     4    |      Sun position sensing                |
@@ -38,11 +39,10 @@ The Arduino handles physical solar panel tracking using LDR sensors and servo mo
 | 18650 Li-ion Battery           |     2    |      Power supply                        |
 | Buck/Boost Converter           |     1    |      Voltage regulation                  |
 | 10kΩ Resistors                 |     4    |      LDR voltage dividers                |
-+--------------------------------+----------+------------------------------------------+
+|--------------------------------|----------|------------------------------------------|
 ---
 
 **PIN CONFIGURATION**
-
 ARDUINO UNO
 -----------------------------------------
 A0          → LDR Top-Left
