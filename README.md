@@ -1,4 +1,4 @@
-                                                       #SOLAR TRACKER WITH BUILT-IN WEATHER STATION
+#SOLAR TRACKER WITH BUILT-IN WEATHER STATION
   
 A dual-axis solar tracking system integrated with a real-time weather station, built using Arduino Uno and ESP32.
 The Arduino handles physical solar panel tracking using LDR sensors and servo motors with an LCD menu interface. The ESP32 collects atmospheric data (temperature, humidity, pressure) and pushes it to the Arduino IoT Cloud for remote monitoring.
