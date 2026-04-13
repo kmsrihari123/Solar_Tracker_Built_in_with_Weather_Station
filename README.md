@@ -78,7 +78,7 @@ POWER
 2x 18650    → Buck/Boost Converter IN
 Converter   → Arduino VIN + Servo Power
 ```
-**LIBRARIES USED**
+## LIBRARIES USED
 
 ### Arduino Uno
 - `Servo.h` *(built-in)*
@@ -128,4 +128,4 @@ Converter   → Arduino VIN + Servo Power
 ---
 
 
-Made by **Sri Hari**
+### Made by Sri Hari
